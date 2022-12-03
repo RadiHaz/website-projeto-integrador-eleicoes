@@ -1,6 +1,42 @@
 /*
-#F0FF42
-#82CD47
-#54B435
-#379237
+https://colorhunt.co/palette/f0ff4282cd4754b435379237
+
+yellow: #F0FF42
+lightgreen: #82CD47
+mediumgreen: #54B435
+darkgreen: #379237
 */
+
+:root {
+    --yellow: #F0FF42;
+    --ltgreen: #82CD47;
+    --mediumgreen: #54B435;
+    --darkgreen: #379237;
+}
+
+header {
+    background-color: var(--yellow);
+}
+
+.carousel__item {
+    display: inline-block;
+}
+
+#candidates__section {
+    background-color: var(--ltgreen);
+}
+
+.news__section {
+    background-color: var(--mediumgreen);
+}
+
+#news__title {
+    font-size: 35px;
+}
+
+#news__title:hover {
+}
+
+footer {
+    background-color: var(--darkgreen);
+}
