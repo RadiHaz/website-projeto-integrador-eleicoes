@@ -2,57 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
     <link rel="stylesheet" href="../styles/index.css">
     <title>Eleição</title>
 </head>
 <body>
-    <header>
-        <h1>Seu portal de notícias e atualizações sobre a Eleição à Presidência da República do Brasil!</h1>
-        <p>Todas as informações são verificdas antes da postagem e todos os dados são verídicos.</p>
-        <nav id="navbar__container">
-            <a class="navbar_item" href="https://www.google.com">Início</a>
-            <a class="navbar_item" href="https://www.google.com">Todos os candidatos</a>
-            <a class="navbar_item" href="https://www.google.com">Sobre nós</a>
-            <a class="navbar_item" href="https://www.google.com">Trabalhe conosco</a>
-        </nav>
+<header>
+    <nav id="navbar__container">
+        <button><a class="navbar_item"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Início</a>
+        </button>
+        <button><a class="navbar_item"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Todos
+            os Candidatos</a></button>
+        <button><a class="navbar_item"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Trabalhe
+            Conosco</a></button>
+        <button><a class="navbar_item"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Sobre
+            Nós</a></button>
+    </nav>
+    <h1>Seu portal de notícias e atualizações sobre a Eleição à Presidência da República do <span>Brasil!</span></h1>
+    <p>Todas as informações são verificdas antes da postagem e todos os dados são verídicos.</p>
+    <div id="searchNews__container">
+        <form>
+            <input type="search" name="searchNews" placeholder="Buscar">
+            <button type="button">
+        <span class="material-symbols-outlined">
+            search
+        </span>
+            </button>
+        </form>
         <section id="candidates__section">
             <nav id="candidates__container">
                 <h2>Candidatos mais buscados do dia: </h2>
-                <a class="candidate" href="https://www.google.com">Bolsonaro</a>
-                <a class="candidate" href="https://www.google.com">Lula</a>
-                <a class="candidate" href="https://www.google.com">Padre</a>
-                <a class="candidate" href="https://www.google.com">Simone</a>
+                <a class="candidate"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Bolsonaro</a>
+                <a class="candidate"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Lula</a>
+                <a class="candidate"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Padre</a>
+                <a class="candidate"
+                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Simone</a>
             </nav>
             <button class="btn__style">Ver todos os candidatos</button>
         </section>
-    </header>
+    </div>
+</header>
+<div id="news_main__container">
     <section class="news__section">
         <div id="news__title">
-            <h2>Notícias mais recentes:</h2>
-            <nav>
-                <div class="carousel_container">
-                    <div class="carousel__item">
-                        <h1><a class="carousel__item__title" href="https://www.google.com">Noticia 1</a></h1>
-                        <img src="index.html" height="200px">
-                    </div>
-                    <div class="carousel__item">
-                        <h1><a class="carousel__item__title" href="https://www.google.com">Noticia 1</a></h1>
-                        <img src="index.html" height="200px">
-                    </div>
-                    <div class="carousel__item">
-                        <h1><a class="carousel__item__title" href="https://www.google.com">Noticia 1</a></h1>
-                        <img src="index.html" height="200px">
-                    </div>
-                    <div class="carousel__item">
-                        <h1><a class="carousel__item__title" href="https://www.google.com">Noticia 1</a></h1>
-                        <img src="index.html" height="200px">
-                    </div>
+            <div class="news__container">
+                <div class="news__item">
+                    <h1><a class="carousel__item__title" href="https://www.google.com">Educação</a></h1>
+                    <img src="index.html" height="200px">
                 </div>
-            </nav>
+                <div class="news__item">
+                    <h1><a class="carousel__item__title" href="https://www.google.com">Saúde</a></h1>
+                    <img src="index.html" height="200px">
+                </div>
+                <div class="news__item">
+                    <h1><a class="carousel__item__title" href="https://www.google.com">Meio Ambiente</a></h1>
+                    <img src="index.html" height="200px">
+                </div>
+                <div class="news__item">
+                    <h1><a class="carousel__item__title" href="https://www.google.com">Infraestrutura</a></h1>
+                    <img src="index.html" height="200px">
+                </div>
+            </div>
         </div>
     </section>
-    <footer>
-        Copyright (C) 2022 gui - Todos os direitos reservados.
-    </footer>
+</div>
+<footer>
+    Copyright (C) 2022 gui - Todos os direitos reservados.
+</footer>
 </body>
 </html>

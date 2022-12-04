@@ -12,31 +12,58 @@ darkgreen: #379237
     --ltgreen: #82CD47;
     --mediumgreen: #54B435;
     --darkgreen: #379237;
+    background-color: var(--darkgreen);
 }
 
 header {
     background-color: var(--yellow);
+    text-align: center;
 }
 
-.carousel__item {
-    display: inline-block;
+#searchNews__container {
+    float: right;
+}
+
+.material-symbols-outlined {
+}
+
+#navbar__container {
+    text-align: right;
+    background-color: var(--ltgreen);
+}
+
+.navbar_item {
+}
+
+#news_main__container {
+    background-color: var(--mediumgreen);
 }
 
 #candidates__section {
     background-color: var(--ltgreen);
+    text-align: center;
 }
 
 .news__section {
-    background-color: var(--mediumgreen);
+    text-align: center;
+    overflow: hidden;
 }
 
 #news__title {
+    text-align: center;
     font-size: 35px;
 }
 
+.news__item {
+    display: inline-block;
+}
+
 #news__title:hover {
+
 }
 
 footer {
     background-color: var(--darkgreen);
+    text-align: center;
+    padding: 5%;
 }
