@@ -6,64 +6,95 @@ lightgreen: #82CD47
 mediumgreen: #54B435
 darkgreen: #379237
 */
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 :root {
     --yellow: #F0FF42;
     --ltgreen: #82CD47;
     --mediumgreen: #54B435;
     --darkgreen: #379237;
-    background-color: var(--darkgreen);
 }
 
-header {
-    background-color: var(--yellow);
+body {
+    margin: 0;
+}
+
+a:link, a:visited > header {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
     text-align: center;
-}
-
-#searchNews__container {
-    float: right;
-}
-
-.material-symbols-outlined {
-}
-
-#navbar__container {
-    text-align: right;
-    background-color: var(--ltgreen);
-}
-
-.navbar_item {
-}
-
-#news_main__container {
-    background-color: var(--mediumgreen);
-}
-
-#candidates__section {
-    background-color: var(--ltgreen);
-    text-align: center;
-}
-
-.news__section {
-    text-align: center;
-    overflow: hidden;
-}
-
-#news__title {
-    text-align: center;
-    font-size: 35px;
-}
-
-.news__item {
+    text-decoration: none;
     display: inline-block;
 }
 
-#news__title:hover {
+a:hover, a:active {
+    background-color: ghostwhite;
+    color: black;
+}
 
+header {
+    text-align: center;
+}
+
+#header_text {
+    padding: 8em;
+}
+
+#navbar__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: ghostwhite;
+    padding: 0;
+}
+
+#navbar__container > button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+#company_logo {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 25px;
+    margin-right: 5em;
+    color: blueviolet;
+    /*position: absolute;*/
+}
+
+#company_logo > span {
+    color: black;
+}
+
+#searchNews__container {
+    text-align: center;
+    float: right;
+}
+
+#news_main__container {
+    padding: 0 10em;
+}
+
+#news__container {
+    display: flex;
+    align-items: baseline;
+}
+
+#search_form {
+    position: absolute;
+    bottom: 50%;
+}
+
+#candidates__section {
+    text-align: center;
 }
 
 footer {
-    background-color: var(--darkgreen);
     text-align: center;
     padding: 5%;
 }

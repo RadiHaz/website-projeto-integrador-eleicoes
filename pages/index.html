@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/index.css">
     <title>Eleição</title>
 </head>
 <body>
 <header>
     <nav id="navbar__container">
-        <button><a class="navbar_item"
-                   href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Início</a>
-        </button>
+        <h2 id="company_logo">DATA<span>\\</span>PRO</h2>
         <button><a class="navbar_item"
                    href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Todos
             os Candidatos</a></button>
@@ -24,17 +25,14 @@
                    href="http://localhost:63342/website-projeto-integrador-eleicoes/pages/index.html?_ijt=e1sf6lvofsvecrtlsj50ig8o03&_ij_reload=RELOAD_ON_SAVE">Sobre
             Nós</a></button>
     </nav>
-    <h1>Seu portal de notícias e atualizações sobre a Eleição à Presidência da República do <span>Brasil!</span></h1>
-    <p>Todas as informações são verificdas antes da postagem e todos os dados são verídicos.</p>
+    <div id="header_text">
+        <h1>Seu portal de notícias e atualizações sobre a Eleição à Presidência da República do <span>Brasil</span>
+        </h1>
+        <p>Todas as informações são verificadas antes da postagem e todos os dados são verídicos.</p>
+    </div>
+</header>
+<div id="news_main__container">
     <div id="searchNews__container">
-        <form>
-            <input type="search" name="searchNews" placeholder="Buscar">
-            <button type="button">
-        <span class="material-symbols-outlined">
-            search
-        </span>
-            </button>
-        </form>
         <section id="candidates__section">
             <nav id="candidates__container">
                 <h2>Candidatos mais buscados do dia: </h2>
@@ -50,30 +48,60 @@
             <button class="btn__style">Ver todos os candidatos</button>
         </section>
     </div>
-</header>
-<div id="news_main__container">
-    <section class="news__section">
-        <div id="news__title">
-            <div class="news__container">
-                <div class="news__item">
-                    <h1><a class="carousel__item__title" href="https://www.google.com">Educação</a></h1>
-                    <img src="index.html" height="200px">
-                </div>
-                <div class="news__item">
-                    <h1><a class="carousel__item__title" href="https://www.google.com">Saúde</a></h1>
-                    <img src="index.html" height="200px">
-                </div>
-                <div class="news__item">
-                    <h1><a class="carousel__item__title" href="https://www.google.com">Meio Ambiente</a></h1>
-                    <img src="index.html" height="200px">
-                </div>
-                <div class="news__item">
-                    <h1><a class="carousel__item__title" href="https://www.google.com">Infraestrutura</a></h1>
-                    <img src="index.html" height="200px">
-                </div>
+    <div id="news__container">
+        <form id="search_form">
+            <input type="search" name="searchNews" placeholder="Buscar">
+            <button type="button">
+        <span class="material-symbols-outlined">
+            search
+        </span>
+            </button>
+        </form>
+        <div class="news_item">
+            <div class="news_item__header">
+                <h1><a href="https://www.google.com">Educação</a></h1>
+                <img src="index.html" height="200px">
+            </div>
+            <div class="news_item__text">
+                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem
+                    Ipsum Lorem Ipsum Lorem Ipsum</p>
             </div>
         </div>
-    </section>
+        <div class="news_item">
+            <div class="news_item__header">
+                <h1><a href="https://www.google.com">Saúde</a></h1>
+                <img src="index.html" height="200px">
+            </div>
+            <div class="news_item__text">
+                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem
+                    Ipsum Lorem Ipsum Lorem Ipsum</p>
+            </div>
+        </div>
+        <div class="news_item">
+            <div class="news_item__header">
+                <h1><a href="https://www.google.com">Meio Ambiente</a></h1>
+                <img src="index.html" height="200px">
+            </div>
+            <div class="news_item__text">
+                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem
+                    Ipsum Lorem Ipsum Lorem Ipsum</p>
+            </div>
+        </div>
+        <div class="news_item">
+            <div class="news_item__header">
+                <h1><a href="https://www.google.com">Infraestrutura</a></h1>
+                <img src="index.html" height="200px">
+            </div>
+            <div class="news_item__text">
+                <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                    Lorem
+                    Ipsum Lorem Ipsum Lorem Ipsum</p>
+            </div>
+        </div>
+    </div>
 </div>
 <footer>
     Copyright (C) 2022 gui - Todos os direitos reservados.
